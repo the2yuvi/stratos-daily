@@ -52,7 +52,12 @@ Rules for prompts:
 - Cover seven different subjects.
 - Do not reuse or lightly reword any prompt in the AVOID list.
 
-For every prompt give 10 to 16 valid answers. For each answer give:
+For easy prompts give 20 to 26 distinct valid answers, for medium 16 to 22,
+and for hard 12 to 18. Pick categories wide enough to meet these counts.
+Include at least four genuinely uncommon answers below 2 percent per
+prompt. Do not pad the list with near-duplicates or borderline answers.
+Use aliases for regional spellings and equivalent names, not for distinct answers.
+For each answer give:
 - "names": the main spelling first, then other spellings or synonyms that
   should count as the same answer. Lower case, letters, digits, spaces,
   hyphens and apostrophes only, at most 28 characters each.
@@ -140,20 +145,27 @@ def validate(obj):
                 share = float(a.get("share"))
             except (TypeError, ValueError):
                 continue
+            if not 0.3 <= share <= 45:
+                continue
             names = []
             for n in a.get("names", []) or []:
                 n = " ".join(str(n).lower().split())
                 if NAME_OK.match(n) and n not in used:
                     used.add(n)
                     names.append(n)
-            if names and 0 < share <= 60:
-                answers.append({"names": names, "share": round(max(0.3, share), 1)})
-        if len(answers) < 8:
-            raise ValueError("fewer than 8 usable answers for %r" % text)
+            if names:
+                answers.append({"names": names, "share": round(share, 1)})
+        minimum = {"easy": 20, "medium": 16, "hard": 12}[difficulty]
+        if len(answers) < minimum:
+            raise ValueError("fewer than %d usable answers for %r" % (minimum, text))
+        if sum(a["share"] < 2 for a in answers) < 4:
+            raise ValueError("fewer than four uncommon answers for %r" % text)
+        if sum(round(a["share"] * 10) for a in answers) > 1000:
+            raise ValueError("answer shares exceed 100 percent for %r" % text)
         answers.sort(key=lambda a: -a["share"])
         cleaned.append({"text": text, "difficulty": difficulty, "answers": answers})
     counts = {d: sum(1 for c in cleaned if c["difficulty"] == d) for d in ("easy", "medium", "hard")}
-    if counts["easy"] < 2 or counts["hard"] < 2:
+    if counts != {"easy": 3, "medium": 2, "hard": 2}:
         raise ValueError("difficulty mix is off: %s" % counts)
     order = {"easy": 0, "medium": 1, "hard": 2}
     cleaned.sort(key=lambda c: order[c["difficulty"]])
@@ -190,7 +202,9 @@ def generate(date, model):
 def selftest():
     sample = {"prompts": [
         {"text": "Prompt number %d" % i, "difficulty": d,
-         "answers": [{"names": ["answer %d" % k, "alt %d" % k], "share": 30 / (k + 1)} for k in range(10)]}
+         "answers": [{"names": ["answer %d" % k, "alt %d" % k],
+                      "share": 30 if k == 0 else 1.5}
+                     for k in range(20)]}
         for i, d in enumerate(["hard", "easy", "easy", "medium", "easy", "hard", "medium"])
     ]}
     good = validate(extract_json("noise " + json.dumps(sample) + " noise"))
