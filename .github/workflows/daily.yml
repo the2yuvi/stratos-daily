@@ -28,7 +28,7 @@ jobs:
       - name: Write missing days
         run: python scripts/generate.py
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.STRATOS }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
 
       - name: Publish
