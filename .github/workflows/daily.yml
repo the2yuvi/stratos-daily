@@ -1,0 +1,40 @@
+name: Daily prompts
+
+on:
+  schedule:
+    - cron: "5 0 * * *"      # 00:05 UTC every day
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-prompts
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the validator
+        run: python scripts/generate.py --selftest
+
+      - name: Write missing days
+        run: python scripts/generate.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+
+      - name: Publish
+        run: |
+          git config user.name "stratos-bot"
+          git config user.email "stratos-bot@users.noreply.github.com"
+          git add daily
+          git diff --cached --quiet || git commit -m "Daily prompts"
+          git push
