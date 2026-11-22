@@ -1,0 +1,560 @@
+{
+ "date": "2026-11-24",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "A kitchen appliance",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "microwave"
+     ],
+     "share": 25.0
+    },
+    {
+     "names": [
+      "toaster"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "refrigerator",
+      "fridge"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "oven"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "blender"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "dishwasher"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "coffee maker"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "kettle"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "air fryer"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "rice cooker"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "food processor"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "stand mixer"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A sport",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "soccer",
+      "association football"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "basketball"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "american football"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "baseball"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "tennis"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "swimming"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "volleyball"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "running"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "golf"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "hockey"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "cricket"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "badminton"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A vehicle",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "car"
+     ],
+     "share": 40.0
+    },
+    {
+     "names": [
+      "truck"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "bus"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "bicycle",
+      "bike"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "motorcycle",
+      "motorbike"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "train"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "airplane",
+      "aeroplane",
+      "plane"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "van"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "boat"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "scooter"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "tractor"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "ambulance"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A card game",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "poker"
+     ],
+     "share": 30.0
+    },
+    {
+     "names": [
+      "blackjack",
+      "twenty-one"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "solitaire",
+      "patience"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "bridge"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "gin rummy"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "hearts"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "go fish"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "euchre"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "pinochle"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "crazy eights"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "cribbage"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "spades"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A wind instrument",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "flute"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "trumpet"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "saxophone"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "clarinet"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "trombone"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "tuba"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "harmonica"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "oboe"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "bassoon"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "piccolo"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "recorder"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "french horn"
+     ],
+     "share": 2.0
+    }
+   ]
+  },
+  {
+   "text": "A moon of Saturn",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "titan"
+     ],
+     "share": 45.0
+    },
+    {
+     "names": [
+      "enceladus"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "rhea"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "mimas"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "dione"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "tethys"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "iapetus"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "phoebe"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "hyperion"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "janus"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "epimetheus"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "atlas"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A flightless bird",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "penguin"
+     ],
+     "share": 30.0
+    },
+    {
+     "names": [
+      "ostrich"
+     ],
+     "share": 25.0
+    },
+    {
+     "names": [
+      "emu"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "kiwi"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "dodo"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "cassowary"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "rhea"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "kakapo"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "takahe"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "weka"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "kagu"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "fuegian steamer duck"
+     ],
+     "share": 0.4
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,575 @@
+{
+ "date": "2026-11-23",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "Something you wear",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "shirt",
+      "t-shirt",
+      "tee"
+     ],
+     "share": 25.0
+    },
+    {
+     "names": [
+      "shoes",
+      "footwear"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "pants",
+      "trousers"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "dress"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "hat",
+      "cap"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "socks"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "jacket"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "coat"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "skirt"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "shorts"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "sweater",
+      "jumper"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "scarf"
+     ],
+     "share": 1.5
+    }
+   ]
+  },
+  {
+   "text": "A place to eat",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "restaurant"
+     ],
+     "share": 30.0
+    },
+    {
+     "names": [
+      "cafe",
+      "coffee shop"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "diner"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "cafeteria",
+      "canteen"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "kitchen"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "dining room"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "food court"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "food truck"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "pub"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "bistro"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "picnic area"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "mess hall"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "An animal that lives in water",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "fish"
+     ],
+     "share": 30.0
+    },
+    {
+     "names": [
+      "dolphin"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "shark"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "whale"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "octopus"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "seal"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "turtle",
+      "sea turtle"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "crab"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "penguin"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "jellyfish"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "salmon"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "sea otter"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Something in a school backpack",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "pencil"
+     ],
+     "share": 22.0
+    },
+    {
+     "names": [
+      "notebook"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "book",
+      "textbook"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "pen"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "eraser",
+      "rubber"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "folder"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "lunchbox",
+      "lunch box"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "water bottle"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "calculator"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "ruler"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "laptop"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "pencil case"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A job that involves cooking",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "chef"
+     ],
+     "share": 32.0
+    },
+    {
+     "names": [
+      "cook"
+     ],
+     "share": 22.0
+    },
+    {
+     "names": [
+      "baker"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "pastry chef"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "line cook"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "sous chef"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "prep cook"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "caterer"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "short order cook"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "sushi chef"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "personal chef"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "chocolatier"
+     ],
+     "share": 0.8
+    }
+   ]
+  },
+  {
+   "text": "A gemstone",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "diamond"
+     ],
+     "share": 30.0
+    },
+    {
+     "names": [
+      "ruby"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "emerald"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "sapphire"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "amethyst"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "opal"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "pearl"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "turquoise"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "garnet"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "topaz"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "jade"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "aquamarine"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "peridot"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A handheld instrument you shake",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "maraca",
+      "maracas"
+     ],
+     "share": 25.0
+    },
+    {
+     "names": [
+      "tambourine"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "egg shaker",
+      "shaker egg"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "rainstick",
+      "rain stick"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "cabasa",
+      "afuche-cabasa"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "shekere",
+      "sheker"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "caxixi"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "sleigh bells"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "jingle stick"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "ocean drum"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "ganza"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "chajchas"
+     ],
+     "share": 0.8
+    }
+   ]
+  }
+ ]
+}

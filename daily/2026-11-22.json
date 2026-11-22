@@ -1,0 +1,589 @@
+{
+ "date": "2026-11-22",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "A fruit",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "apple"
+     ],
+     "share": 24.0
+    },
+    {
+     "names": [
+      "banana"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "orange"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "strawberry"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "grape"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "watermelon"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "mango"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "pineapple"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "peach"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "pear"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "kiwi"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "plum"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "Something in a bathroom",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "toothbrush"
+     ],
+     "share": 19.0
+    },
+    {
+     "names": [
+      "towel"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "soap"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "shampoo"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "toilet"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "sink"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "mirror"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "toothpaste"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "bathtub",
+      "bath"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "comb"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "razor"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "bath mat",
+      "bathmat"
+     ],
+     "share": 2.0
+    }
+   ]
+  },
+  {
+   "text": "A kind of weather",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "sunny"
+     ],
+     "share": 24.0
+    },
+    {
+     "names": [
+      "rainy"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "cloudy"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "snowy"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "windy"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "stormy"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "foggy"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "hot"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "cold"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "hail"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "drizzle"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "thunder"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A tool for a garden",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "shovel"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "rake"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "hoe"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "trowel"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "pruning shears",
+      "pruners"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "watering can"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "garden shears"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "wheelbarrow"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "spade"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "garden fork",
+      "digging fork"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "garden hose",
+      "hose"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "hand cultivator",
+      "cultivator"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A string instrument",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "guitar"
+     ],
+     "share": 25.0
+    },
+    {
+     "names": [
+      "violin"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "piano"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "harp"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "cello"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "ukulele",
+      "uke"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "bass guitar"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "banjo"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "viola"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "mandolin"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "double bass",
+      "upright bass"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "sitar"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A type of knot",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "bowline"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "clove hitch"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "sheet bend"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "figure-eight knot",
+      "figure of eight knot"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "reef knot",
+      "square knot"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "fisherman's knot",
+      "fishermans knot"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "taut-line hitch"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "water knot",
+      "tape knot"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "surgeon's knot",
+      "surgeons knot"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "trucker's hitch",
+      "truckers hitch"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "prusik knot",
+      "prussik knot"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "granny knot"
+     ],
+     "share": 1.0
+    }
+   ]
+  },
+  {
+   "text": "A constellation",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "orion"
+     ],
+     "share": 25.0
+    },
+    {
+     "names": [
+      "ursa major",
+      "great bear"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "ursa minor",
+      "little bear"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "cassiopeia"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "andromeda"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "cygnus",
+      "swan"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "leo",
+      "lion"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "taurus",
+      "bull"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "gemini",
+      "twins"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "scorpius",
+      "scorpio"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "pegasus"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "lyra",
+      "harp"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "draco",
+      "dragon"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "aquila",
+      "eagle"
+     ],
+     "share": 0.5
+    }
+   ]
+  }
+ ]
+}
