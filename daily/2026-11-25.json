@@ -1,0 +1,898 @@
+{
+ "date": "2026-11-25",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "A type of bread",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "white bread"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "sourdough"
+     ],
+     "share": 11.0
+    },
+    {
+     "names": [
+      "whole wheat",
+      "wholemeal"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "baguette"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "rye bread"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "pita",
+      "pitta"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "garlic bread"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "multigrain bread"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "bagel"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "naan"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "cornbread"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "flatbread"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "brioche"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "ciabatta"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "english muffin"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "tortilla"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "focaccia"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "pretzel"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "pumpernickel"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "soda bread"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "challah"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "matzo",
+      "matzah"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "lavash"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "injera"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Something in a park",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "bench"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "playground"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "pond"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "fountain"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "walking path",
+      "path"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "picnic table"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "trees"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "flower bed"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "basketball court"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "tennis court"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "gazebo"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "statue"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "trash can",
+      "rubbish bin"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "skate park"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "dog park"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "public restroom"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "community garden"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "picnic shelter"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "baseball diamond"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "birdhouse"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "bandstand"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "amphitheater",
+      "amphitheatre"
+     ],
+     "share": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A room in a house",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "living room"
+     ],
+     "share": 16.0
+    },
+    {
+     "names": [
+      "bedroom"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "kitchen"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "bathroom"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "dining room"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "laundry room"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "garage"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "den"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "study"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "nursery"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "guest room"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "pantry"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "attic"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "basement"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "mudroom"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "foyer",
+      "entryway"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "playroom"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "sunroom"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "storage room"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "walk-in closet"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "sewing room"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "conservatory"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "root cellar"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "scullery"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "boiler room"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A type of bridge",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "arch bridge"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "beam bridge"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "truss bridge"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "suspension bridge"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "cable-stayed bridge"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "cantilever bridge"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "covered bridge"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "footbridge"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "viaduct"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "swing bridge"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "aqueduct"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "tied-arch bridge"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "pontoon bridge"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "trestle bridge"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "rope bridge"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "bascule bridge"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "vertical-lift bridge"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "bailey bridge"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "lattice bridge"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "slab bridge"
+     ],
+     "share": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A part of a sailing ship",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "mast"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "sail"
+     ],
+     "share": 11.0
+    },
+    {
+     "names": [
+      "hull"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "keel"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "rudder"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "bow"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "deck"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "stern"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "boom"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "rigging"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "tiller"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "bowsprit"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "stay"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "crow's nest"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "shroud"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "halyard"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "gaff"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "yardarm"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "mainsheet"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "belaying pin"
+     ],
+     "share": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A tool used in bookbinding",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "bone folder"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "awl"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "sewing needle"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "backing hammer"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "sewing frame"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "paper knife"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "lying press",
+      "bookbinder's press"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "paring knife"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "glue brush"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "nipping press"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "finishing press"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "pressing boards"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "plough",
+      "plow"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "brass rule"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "punching cradle"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A part of a lighthouse",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "tower"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "lantern room",
+      "light room"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "beacon"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "lamp"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "fresnel lens"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "foghorn"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "gallery"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "spiral staircase"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "watch room"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "keeper's quarters"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "pedestal"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "cupola"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "service room"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "clockwork mechanism"
+     ],
+     "share": 0.5
+    }
+   ]
+  }
+ ]
+}
