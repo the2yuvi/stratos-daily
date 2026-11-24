@@ -1,0 +1,921 @@
+{
+ "date": "2026-11-26",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "A type of tree",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "oak"
+     ],
+     "share": 16.0
+    },
+    {
+     "names": [
+      "maple"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "pine"
+     ],
+     "share": 11.0
+    },
+    {
+     "names": [
+      "willow"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "birch"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "cherry"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "apple"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "cedar"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "spruce"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "palm"
+     ],
+     "share": 3.5
+    },
+    {
+     "names": [
+      "elm"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "ash"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "sycamore"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "magnolia"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "poplar"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "fir"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "redwood"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "beech"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "walnut"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "dogwood"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "aspen"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "larch"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "cypress"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "giant sequoia",
+      "sequoia"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A flavor of ice cream",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "vanilla"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "chocolate"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "strawberry"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "mint chocolate chip",
+      "mint choc chip"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "cookies and cream",
+      "cookies n cream"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "cookie dough"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "butter pecan"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "rocky road"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "coffee"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "pistachio"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "salted caramel"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "mango"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "peach"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "rum raisin"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "neapolitan"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "black cherry"
+     ],
+     "share": 1.3
+    },
+    {
+     "names": [
+      "bubblegum"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "cotton candy"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "green tea",
+      "matcha"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "dulce de leche"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "lavender"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "ube"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "butter brickle"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "saffron"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A household cleaning item",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "broom"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "vacuum cleaner",
+      "vacuum"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "mop"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "sponge"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "dustpan"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "scrub brush"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "duster"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "microfiber cloth"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "squeegee"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "lint roller"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "bucket"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "rubber gloves"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "spray bottle"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "toilet brush"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "carpet sweeper"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "steel wool"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "scouring pad"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "laundry detergent",
+      "detergent"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "bleach"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "glass cleaner"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "baking soda"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "chamois"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "grout brush"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "drain snake"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A type of cloud",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "cirrus"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "cumulus"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "stratus"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "cumulonimbus"
+     ],
+     "share": 11.0
+    },
+    {
+     "names": [
+      "nimbostratus"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "stratocumulus"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "altocumulus"
+     ],
+     "share": 3.5
+    },
+    {
+     "names": [
+      "altostratus"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "cirrostratus"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "cirrocumulus"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "lenticular cloud",
+      "lenticular"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "mammatus cloud",
+      "mammatus"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "shelf cloud"
+     ],
+     "share": 1.3
+    },
+    {
+     "names": [
+      "roll cloud"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "wall cloud"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "pyrocumulus"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "noctilucent cloud",
+      "night shining cloud"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "kelvin-helmholtz cloud"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A named polygon",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "triangle"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "quadrilateral",
+      "tetragon"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "pentagon"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "hexagon"
+     ],
+     "share": 11.0
+    },
+    {
+     "names": [
+      "octagon"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "heptagon"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "decagon"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "nonagon",
+      "enneagon"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "dodecagon"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "hendecagon",
+      "undecagon"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "tridecagon"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "tetradecagon"
+     ],
+     "share": 1.3
+    },
+    {
+     "names": [
+      "pentadecagon"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "hexadecagon"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "heptadecagon"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "octadecagon"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "icosagon"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "chiliagon"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A historical writing system",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "cuneiform"
+     ],
+     "share": 19.0
+    },
+    {
+     "names": [
+      "egyptian hieroglyphs",
+      "hieroglyphics"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "runic alphabet",
+      "runes"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "maya script",
+      "mayan hieroglyphs"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "linear a"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "linear b"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "phoenician alphabet"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "ogham",
+      "ogham alphabet"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "oracle bone script"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "brahmi script"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "indus script"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "tifinagh"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "glagolitic alphabet",
+      "glagolitic script"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "rongorongo"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "tangut script"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "kharosthi script",
+      "kharosthi"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "geez script"
+     ],
+     "share": 0.4
+    },
+    {
+     "names": [
+      "old persian cuneiform"
+     ],
+     "share": 0.3
+    }
+   ]
+  },
+  {
+   "text": "A type of fossil",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "body fossil"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "trace fossil"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "mold fossil"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "cast fossil"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "petrified fossil",
+      "petrified wood"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "amber-preserved fossil",
+      "amber fossil"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "carbon film"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "impression fossil"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "compression fossil"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "microfossil"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "index fossil"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "frozen fossil"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "coprolite",
+      "fossilized dung"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "permineralized fossil"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "replacement fossil"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "subfossil"
+     ],
+     "share": 0.5
+    }
+   ]
+  }
+ ]
+}
