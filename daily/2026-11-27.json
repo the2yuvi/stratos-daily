@@ -1,0 +1,922 @@
+{
+ "date": "2026-11-27",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "A piece of furniture",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "chair"
+     ],
+     "share": 27.0
+    },
+    {
+     "names": [
+      "table"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "sofa",
+      "couch"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "bed"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "desk"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "dresser",
+      "chest of drawers"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "bookshelf",
+      "bookcase"
+     ],
+     "share": 3.5
+    },
+    {
+     "names": [
+      "cabinet"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "stool"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "bench"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "wardrobe"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "nightstand",
+      "bedside table"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "recliner"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "ottoman"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "sideboard",
+      "buffet"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "armoire"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "credenza"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "settee"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "chaise longue",
+      "chaise lounge"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "futon"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "bunk bed"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "rocking chair"
+     ],
+     "share": 0.4
+    },
+    {
+     "names": [
+      "beanbag",
+      "bean bag"
+     ],
+     "share": 0.3
+    }
+   ]
+  },
+  {
+   "text": "A type of shop",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "grocery store"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "supermarket"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "bookstore",
+      "bookshop"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "bakery"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "pharmacy",
+      "chemist"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "clothing store"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "hardware store"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "shoe store",
+      "shoe shop"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "toy store",
+      "toy shop"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "pet shop",
+      "pet store"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "florist",
+      "flower shop"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "butcher shop"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "fishmonger"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "barber shop"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "hair salon"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "thrift store",
+      "charity shop"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "jewelry store",
+      "jewellery shop"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "optician"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "newsagent",
+      "newsstand"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "stationery shop"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "record shop"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "bicycle shop"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "tailor shop"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "fabric store"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A body of water",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "ocean"
+     ],
+     "share": 19.0
+    },
+    {
+     "names": [
+      "river"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "lake"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "sea"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "pond"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "bay"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "waterfall"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "canal"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "swamp"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "reservoir"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "gulf"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "marsh"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "lagoon"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "strait"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "delta"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "inlet"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "cove"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "estuary"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "fjord"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "aquifer"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "sound"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "spring"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A kind of pasta shape",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "spaghetti"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "penne"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "macaroni"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "fusilli"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "farfalle",
+      "bow ties"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "rigatoni"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "linguine"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "ravioli"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "tortellini"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "lasagna",
+      "lasagne"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "orzo",
+      "risoni"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "orecchiette"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "bucatini"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "cavatappi"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "gemelli"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "paccheri"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "trofie"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "radiatori"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "conchiglie"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "pappardelle"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A kind of dance",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "ballet"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "waltz"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "tango"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "salsa"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "tap dance"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "breakdance",
+      "breaking"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "foxtrot"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "cha-cha-cha",
+      "chachacha"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "rumba"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "samba"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "polka"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "jig"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "flamenco"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "square dance"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "merengue"
+     ],
+     "share": 1.3
+    },
+    {
+     "names": [
+      "quickstep"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "mazurka"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "fandango"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "clogging"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "bolero"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A component of a beehive",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "hive body",
+      "brood chamber"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "honeycomb"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "honey super",
+      "super"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "hive frame",
+      "frame"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "foundation",
+      "comb foundation"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "queen excluder"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "bottom board"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "inner cover"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "outer cover"
+     ],
+     "share": 3.5
+    },
+    {
+     "names": [
+      "entrance reducer"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "hive stand"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "feeder",
+      "bee feeder"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "pollen trap"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "mouse guard",
+      "mouseguard"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "bee escape"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "follower board",
+      "dummy board"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A historical instrument for observing the sky",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "telescope"
+     ],
+     "share": 22.0
+    },
+    {
+     "names": [
+      "astrolabe"
+     ],
+     "share": 16.0
+    },
+    {
+     "names": [
+      "sundial"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "sextant"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "quadrant"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "armillary sphere"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "celestial globe"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "gnomon"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "cross-staff"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "octant"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "backstaff"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "nocturnal"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "merkhet"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "torquetum"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "dioptra"
+     ],
+     "share": 0.4
+    },
+    {
+     "names": [
+      "equatorial ring dial"
+     ],
+     "share": 0.3
+    }
+   ]
+  }
+ ]
+}
