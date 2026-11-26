@@ -1,0 +1,848 @@
+{
+ "date": "2026-11-28",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "Something used to write",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "pen"
+     ],
+     "share": 26.0
+    },
+    {
+     "names": [
+      "pencil"
+     ],
+     "share": 22.0
+    },
+    {
+     "names": [
+      "marker"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "crayon"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "chalk"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "keyboard"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "highlighter"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "stylus"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "paintbrush"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "ink"
+     ],
+     "share": 1.7
+    },
+    {
+     "names": [
+      "fountain pen"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "colored pencil"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "ballpoint pen"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "mechanical pencil"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "charcoal stick"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "quill"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "typewriter"
+     ],
+     "share": 0.9
+    },
+    {
+     "names": [
+      "gel pen"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "dip pen"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "grease pencil"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "calligraphy pen"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "technical pen"
+     ],
+     "share": 0.3
+    }
+   ]
+  },
+  {
+   "text": "A thing found at a beach",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "towel"
+     ],
+     "share": 24.0
+    },
+    {
+     "names": [
+      "sand"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "seashell",
+      "shell"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "umbrella"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "sunscreen",
+      "sunblock"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "bucket"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "shovel"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "swimsuit"
+     ],
+     "share": 3.5
+    },
+    {
+     "names": [
+      "sunglasses"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "beach ball"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "flip flops"
+     ],
+     "share": 2.4
+    },
+    {
+     "names": [
+      "cooler"
+     ],
+     "share": 2.2
+    },
+    {
+     "names": [
+      "surfboard"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "driftwood"
+     ],
+     "share": 1.7
+    },
+    {
+     "names": [
+      "sea glass"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "beach chair"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "snorkel"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "tide pool",
+      "tidal pool"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "sand dollar"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "kite"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "shell rake"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "beach tent"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "boogie board"
+     ],
+     "share": 0.6
+    }
+   ]
+  },
+  {
+   "text": "A kind of dessert",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "cake"
+     ],
+     "share": 25.0
+    },
+    {
+     "names": [
+      "pie"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "cookies"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "brownies"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "pudding"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "ice cream"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "cheesecake"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "doughnut",
+      "donut"
+     ],
+     "share": 3.5
+    },
+    {
+     "names": [
+      "cupcake"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "tart"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "mousse"
+     ],
+     "share": 2.2
+    },
+    {
+     "names": [
+      "flan"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "pavlova"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "trifle"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "baklava"
+     ],
+     "share": 1.3
+    },
+    {
+     "names": [
+      "cobbler"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "sorbet"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "panna cotta"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "clafoutis"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "syllabub"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "kulfi"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A type of fastener",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "nail"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "screw"
+     ],
+     "share": 17.0
+    },
+    {
+     "names": [
+      "bolt"
+     ],
+     "share": 11.0
+    },
+    {
+     "names": [
+      "nut"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "button"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "zipper"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "pin"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "clip"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "staple"
+     ],
+     "share": 3.5
+    },
+    {
+     "names": [
+      "hook and eye"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "buckle"
+     ],
+     "share": 2.2
+    },
+    {
+     "names": [
+      "latch"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "cotter pin",
+      "split pin"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "toggle fastener"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "rivet"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "snap fastener",
+      "press stud"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "cable tie"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "clevis pin"
+     ],
+     "share": 0.8
+    }
+   ]
+  },
+  {
+   "text": "A kind of map",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "road map"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "world map"
+     ],
+     "share": 16.0
+    },
+    {
+     "names": [
+      "political map"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "topographic map"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "subway map",
+      "metro map"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "weather map"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "physical map"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "trail map"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "nautical chart",
+      "sea chart"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "transit map"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "star map"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "geological map"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "aeronautical chart",
+      "aviation chart"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "bathymetric map"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "cadastral map"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "choropleth map"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "zoning map"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "land use map"
+     ],
+     "share": 0.7
+    }
+   ]
+  },
+  {
+   "text": "A volcanic landform",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "stratovolcano"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "shield volcano"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "cinder cone"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "lava dome"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "caldera"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "volcanic crater"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "maar"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "tuff ring"
+     ],
+     "share": 1.6
+    },
+    {
+     "names": [
+      "volcanic neck"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "lava tube"
+     ],
+     "share": 1.3
+    },
+    {
+     "names": [
+      "tuya",
+      "tuyas"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "lava field"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "volcanic plateau"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "volcanic island"
+     ],
+     "share": 0.9
+    }
+   ]
+  },
+  {
+   "text": "An ancient writing material",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "papyrus"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "paper"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "parchment",
+      "vellum"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "clay tablet"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "wax tablet"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "bamboo slips",
+      "bamboo strips"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "palm leaf",
+      "palm leaf manuscript"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "birch bark"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "ostracon",
+      "ostraca"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "silk"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "wooden tablet"
+     ],
+     "share": 1.4
+    },
+    {
+     "names": [
+      "stone slab"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "lead tablet"
+     ],
+     "share": 1.1
+    },
+    {
+     "names": [
+      "linen"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "copper plate"
+     ],
+     "share": 0.6
+    }
+   ]
+  }
+ ]
+}
