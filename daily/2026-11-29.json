@@ -1,0 +1,862 @@
+{
+ "date": "2026-11-29",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "A type of soup",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "tomato soup"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "chicken soup"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "minestrone"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "clam chowder"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "french onion soup"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "lentil soup"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "miso soup"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "noodle soup"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "gumbo"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "pho"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "gazpacho"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "mushroom soup"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "borscht",
+      "borsch"
+     ],
+     "share": 1.8
+    },
+    {
+     "names": [
+      "wonton soup"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "pozole"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "caldo verde"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "vichyssoise"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "harira"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "avgolemono",
+      "avgolemono soup"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "mulligatawny"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "cock-a-leekie soup"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "tarator"
+     ],
+     "share": 0.4
+    }
+   ]
+  },
+  {
+   "text": "A kind of flower",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "rose"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "tulip"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "daisy"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "sunflower"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "lily"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "orchid"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "daffodil"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "marigold"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "carnation"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "peony"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "hibiscus"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "lavender"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "iris"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "poppy"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "zinnia"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "snapdragon"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "anemone"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "ranunculus"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "delphinium"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "freesia"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "foxglove"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "lisianthus"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A musical genre",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "rock"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "pop"
+     ],
+     "share": 16.0
+    },
+    {
+     "names": [
+      "hip hop"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "country"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "jazz"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "classical"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "blues"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "metal"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "reggae"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "punk"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "rhythm and blues",
+      "r and b"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "soul"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "folk"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "techno"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "house"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "disco"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "funk"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "bluegrass"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "ska"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "trip hop"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "shoegaze"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "bossa nova"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A way to preserve food",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "freezing"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "canning"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "drying"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "pickling"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "smoking"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "fermentation"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "refrigeration"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "salting"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "curing"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "sugaring"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "vacuum sealing",
+      "vacuum packing"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "freeze drying",
+      "lyophilization"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "pasteurization"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "bottling"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "brining"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "jam making"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "confit"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "oil packing"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "candying"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A kind of tea",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "black tea"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "green tea"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "chai"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "earl grey"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "oolong"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "matcha"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "peppermint tea"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "chamomile tea"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "white tea"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "jasmine tea"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "english breakfast tea"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "rooibos",
+      "rooibos tea"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "yerba mate"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "pu erh",
+      "pu-erh"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "genmaicha"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "lapsang souchong"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "yellow tea"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "hojicha"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "barley tea"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "hibiscus tea"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A breed of sheep",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "merino"
+     ],
+     "share": 30.0
+    },
+    {
+     "names": [
+      "suffolk"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "dorset"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "hampshire"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "shetland"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "jacob"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "rambouillet"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "corriedale"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "awassi"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "charollais"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "zwartbles"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "ouessant",
+      "ushant sheep"
+     ],
+     "share": 0.6
+    },
+    {
+     "names": [
+      "manx loaghtan"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "lleyn"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A type of optical illusion",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "muller-lyer illusion",
+      "muller lyer illusion"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "ponzo illusion"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "ebbinghaus illusion"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "kanizsa triangle"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "necker cube"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "rubin vase",
+      "rubin face vase"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "ames room"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "hermann grid illusion"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "cafe wall illusion"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "checker shadow illusion"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "hollow face illusion"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "motion aftereffect"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "scintillating grid illusion"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "peripheral drift illusion"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "rotating snakes illusion"
+     ],
+     "share": 0.5
+    }
+   ]
+  }
+ ]
+}
