@@ -1,0 +1,908 @@
+{
+ "date": "2026-11-30",
+ "model": "gpt-6-luna",
+ "prompts": [
+  {
+   "text": "A thing people drink",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "water"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "coffee"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "tea"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "milk"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "orange juice"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "soda",
+      "pop",
+      "soft drink"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "lemonade"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "hot chocolate",
+      "hot cocoa"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "smoothie"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "iced tea"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "sports drink"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "coconut water"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "root beer"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "apple cider"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "buttermilk"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "kombucha"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "broth"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "sparkling water"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "kefir"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "horchata"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "barley water"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "kvass"
+     ],
+     "share": 0.4
+    },
+    {
+     "names": [
+      "tepache"
+     ],
+     "share": 0.3
+    },
+    {
+     "names": [
+      "switchel"
+     ],
+     "share": 0.3
+    },
+    {
+     "names": [
+      "shrub"
+     ],
+     "share": 0.3
+    }
+   ]
+  },
+  {
+   "text": "An animal that can fly",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "eagle"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "bat"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "butterfly"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "bee"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "pigeon"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "crow"
+     ],
+     "share": 6.0
+    },
+    {
+     "names": [
+      "parrot"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "owl"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "hawk"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "hummingbird"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "mosquito"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "dragonfly"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "sparrow"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "moth"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "housefly"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "wasp"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "ladybug",
+      "ladybird"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "grasshopper"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "firefly",
+      "lightning bug"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "swift"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "kestrel"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "lacewing"
+     ],
+     "share": 0.3
+    },
+    {
+     "names": [
+      "damselfly"
+     ],
+     "share": 0.3
+    },
+    {
+     "names": [
+      "crane fly"
+     ],
+     "share": 0.3
+    }
+   ]
+  },
+  {
+   "text": "A type of bag",
+   "difficulty": "easy",
+   "answers": [
+    {
+     "names": [
+      "backpack",
+      "rucksack"
+     ],
+     "share": 20.0
+    },
+    {
+     "names": [
+      "tote bag"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "suitcase",
+      "valise"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "handbag",
+      "purse"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "duffel bag",
+      "holdall"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "gift bag"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "briefcase"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "shopping bag"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "messenger bag"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "drawstring bag"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "lunch bag"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "diaper bag",
+      "nappy bag"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "satchel"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "clutch bag"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "garment bag"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "tool bag"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "cosmetic bag",
+      "makeup bag"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "camera bag"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "beach bag"
+     ],
+     "share": 1.2
+    },
+    {
+     "names": [
+      "sling bag"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "bucket bag"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "saddlebag"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "mail bag",
+      "postbag"
+     ],
+     "share": 0.7
+    },
+    {
+     "names": [
+      "burlap sack"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A material used to make clothing",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "cotton"
+     ],
+     "share": 28.0
+    },
+    {
+     "names": [
+      "polyester"
+     ],
+     "share": 15.0
+    },
+    {
+     "names": [
+      "wool"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "silk"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "linen"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "denim"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "leather"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "nylon"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "cashmere"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "rayon",
+      "viscose"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "spandex",
+      "elastane"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "acrylic"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "hemp"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "alpaca"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "mohair"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "ramie"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "lyocell"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "modal"
+     ],
+     "share": 0.5
+    }
+   ]
+  },
+  {
+   "text": "A unit of time",
+   "difficulty": "medium",
+   "answers": [
+    {
+     "names": [
+      "second"
+     ],
+     "share": 17.8
+    },
+    {
+     "names": [
+      "minute"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "hour"
+     ],
+     "share": 13.0
+    },
+    {
+     "names": [
+      "day"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "week"
+     ],
+     "share": 9.0
+    },
+    {
+     "names": [
+      "month"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "year"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "decade"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "century"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "millisecond"
+     ],
+     "share": 2.5
+    },
+    {
+     "names": [
+      "fortnight"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "millennium"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "quarter"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "microsecond"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "semester"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "nanosecond"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "biennium"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "lustrum"
+     ],
+     "share": 0.3
+    }
+   ]
+  },
+  {
+   "text": "A type of thermometer",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "digital thermometer"
+     ],
+     "share": 22.0
+    },
+    {
+     "names": [
+      "mercury thermometer",
+      "mercury-in-glass thermometer"
+     ],
+     "share": 16.0
+    },
+    {
+     "names": [
+      "infrared thermometer"
+     ],
+     "share": 12.0
+    },
+    {
+     "names": [
+      "clinical thermometer",
+      "medical thermometer"
+     ],
+     "share": 10.0
+    },
+    {
+     "names": [
+      "alcohol thermometer",
+      "spirit thermometer"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "meat thermometer"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "thermocouple thermometer"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "bimetallic thermometer"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "thermistor thermometer"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "wet-bulb thermometer",
+      "wet bulb thermometer"
+     ],
+     "share": 2.0
+    },
+    {
+     "names": [
+      "gas thermometer"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "galileo thermometer"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "maximum-minimum thermometer",
+      "six's thermometer"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "liquid crystal thermometer"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "pyrometer"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "resistance thermometer"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "candy thermometer"
+     ],
+     "share": 0.8
+    }
+   ]
+  },
+  {
+   "text": "A type of volcanic rock",
+   "difficulty": "hard",
+   "answers": [
+    {
+     "names": [
+      "basalt"
+     ],
+     "share": 25.0
+    },
+    {
+     "names": [
+      "obsidian"
+     ],
+     "share": 18.0
+    },
+    {
+     "names": [
+      "pumice",
+      "pumice stone"
+     ],
+     "share": 14.0
+    },
+    {
+     "names": [
+      "rhyolite"
+     ],
+     "share": 8.0
+    },
+    {
+     "names": [
+      "andesite"
+     ],
+     "share": 7.0
+    },
+    {
+     "names": [
+      "scoria"
+     ],
+     "share": 5.0
+    },
+    {
+     "names": [
+      "tuff"
+     ],
+     "share": 4.0
+    },
+    {
+     "names": [
+      "dacite"
+     ],
+     "share": 3.0
+    },
+    {
+     "names": [
+      "perlite"
+     ],
+     "share": 1.5
+    },
+    {
+     "names": [
+      "trachyte"
+     ],
+     "share": 1.0
+    },
+    {
+     "names": [
+      "phonolite"
+     ],
+     "share": 0.8
+    },
+    {
+     "names": [
+      "tephrite"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "komatiite"
+     ],
+     "share": 0.5
+    },
+    {
+     "names": [
+      "ignimbrite"
+     ],
+     "share": 0.5
+    }
+   ]
+  }
+ ]
+}
